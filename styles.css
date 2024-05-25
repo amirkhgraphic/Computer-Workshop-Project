@@ -234,10 +234,26 @@ footer {
         flex-direction: column !important;
         gap: 2rem;
     }
+
+    .row.w-100 {
+        gap: 2rem;
+    }
 }
+
 @media only screen and (max-width: 600px){
 	.company {
         flex-direction: column-reverse;
         gap: 1rem;
     }
+
+    .cards {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
 }
